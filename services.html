@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dịch Vụ - Nội Thất Luxury</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="fixed-header">
+        <div class="container">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Trang Chủ</a></li>
+                    <li><a href="about.html">Giới Thiệu</a></li>
+                    <li><a href="services.html" class="active">Dịch Vụ</a></li>
+                    <li><a href="products.html">Sản Phẩm</a></li>
+                    <li><a href="news.html">Tin Tức</a></li>
+                    <li><a href="contact.html">Liên Hệ</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn-login">Đăng Nhập</a>
+        </div>
+    </header>
+
+    <!-- Services -->
+    <section class="section services">
+        <div class="container">
+            <h2>Danh Sách Dịch Vụ</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="images/service1.jpg" alt="Dịch vụ 1" loading="lazy">
+                    <h3>Phát triển Web</h3>
+                    <p>Xây dựng website chuyên nghiệp, responsive.</p>
+                    <a href="service-detail.html" class="btn">Chi Tiết</a>
+                </div>
+                <div class="service-card">
+                    <img src="images/service2.jpg" alt="Dịch vụ 2" loading="lazy">
+                    <h3>SEO Marketing</h3>
+                    <p>Tối ưu hóa thứ hạng tìm kiếm Google.</p>
+                    <a href="service-detail.html" class="btn">Chi Tiết</a>
+                </div>
+                <div class="service-card">
+                    <img src="images/service3.jpg" alt="Dịch vụ 3" loading="lazy">
+                    <h3>Tư vấn CNTT</h3>
+                    <p>Giải pháp công nghệ toàn diện.</p>
+                    <a href="service-detail.html" class="btn">Chi Tiết</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="service-detail" id="web-detail">
+        <form class="quote-form">
+            <h3>Yêu Cầu Báo Giá</h3>
+            <label for="name">Họ Tên</label>
+            <input type="text" id="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <label for="message">Yêu Cầu</label>
+            <textarea id="message" rows="5" required></textarea>
+            <button type="submit" class="cta-button">Gửi</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Nội Thất Luxury</h3>
+                    <p>Địa chỉ: 371 Đường Nguyễn Văn Công, TP.HCM</p>
+                    <p>Email: contact@xyz.com</p>
+                    <p>Điện thoại: 0123 456 789</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <a href="#" class="btn-top"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
